@@ -11,12 +11,9 @@ print(120 != 120) # Fałsz # ==, >=, !=, <=
 print(60 == 15) # Fałsz # ==, <, !=, >=
 print(25.3421 == 25.3421) # Prawda # ==, <, !=, <=
 
-# print("Czy możesz skorzystać z roller-coastera?")
-# print("True - możesz skorzystać z roller-coastera")
-# print("False - nie możesz skorzystać z roller-coastera")
 
-# wzrost_cm = int(input("Podaj swój wzrost w centymetrach: "))
-# print(wzrost_cm >= 150)
+
+
 
 #Operatory logiczne
 #1. Operator jednoargumentowy NOT
@@ -52,3 +49,36 @@ False or False #Wynik: False
 
 #Przykład 2
 5 < 2 or 10 == 5 #Wynik: False
+
+print("Czy możesz skorzystać z roller-coastera?")
+print("True - możesz skorzystać z roller-coastera")
+print("False - nie możesz skorzystać z roller-coastera")
+
+#wzrost_cm = int(input("Podaj swój wzrost w centymetrach: "))
+#print(wzrost_cm >= 150 and wzrost_cm < 195)
+#szybszy zapis powyższej linii:
+#print(150 <= wzrost_cm < 195)
+
+print(True, 25 < 140 and 10 == 10)
+print(True, 100 >= 1 or 2 > 10)
+print(False, 25 < 14 and 10 != 10)
+print(False, -1 < 3 and 2 < 9 and 10 == 15)
+print(True, 20.05 < 21 < 10 or -10 < 20 < 150 <= 150)
+print(False, 1 < 10 and 2 < 15 and -50 == 42)
+print(True, not 2 == 10)
+
+#Kolejność wykonywania działań - not, and, or
+print(False, not(10 < 10 or 20 <= 20))
+print(True, not 10 < 10 and 20 <= 20)
+
+#Operatory i napisy
+print("Napis" == "Napis2") #Czy oba napisy są dokładnie takie same
+print("Napis" == "napis") #fałsz
+
+print(ord("a"))
+print(ord("A"))
+
+print(chr(97))
+print(chr(65))
+
+
