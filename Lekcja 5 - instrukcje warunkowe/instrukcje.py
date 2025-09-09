@@ -23,11 +23,30 @@ else:
     #Ta cześć kodu się wykona jeżeli warunek nie był spełniony
     pass
 
-dzielna = int(input("Wprowadź dzielną: "))
-dzielnik = int(input("Wprowadź dzielnik: "))
+# dzielna = int(input("Wprowadź dzielną: "))
+# dzielnik = int(input("Wprowadź dzielnik: "))
 
-if dzielnik != 0:
-    wynik = dzielna/dzielnik
-    print(f"Wynik z dzielenia: {wynik}")
+# if dzielnik != 0:
+#     wynik = dzielna/dzielnik
+#     print(f"Wynik z dzielenia: {wynik}")
+# else:
+#     print("Nie wolno dzielić przez zero!")
+
+
+#Konstrukcja if-else if
+# if warunek:
+#     pass
+# elif warunek2:
+#     pass
+# else:
+#     pass
+
+#przykład
+liczba = int(input("Wprowadź liczbę: "))
+
+if liczba > 0:
+    print("Ta liczba jest dodatnia")
+elif liczba < 0:
+    print("Ta liczba jest ujemna")
 else:
-    print("Nie wolno dzielić przez zero!")
+    print("Ta liczba jest równa 0")
