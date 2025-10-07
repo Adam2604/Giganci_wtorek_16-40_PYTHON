@@ -9,6 +9,5 @@ Przykład dla wysokości = 3, szerokości = 5:
 wysokosc = int(input("Podaj wysokość prostokąta: "))
 szerokosc = int(input("Podaj szerokość prostokąta: "))
 
-for i in range(wysokosc):
+for i in range(10,5,3):
     print("*" * szerokosc)
-
