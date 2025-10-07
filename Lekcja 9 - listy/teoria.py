@@ -25,3 +25,10 @@ print(oceny[3])
 dodawanie_ocen = oceny[1] + oceny[3]
 print(dodawanie_ocen)
 
+liczby = [1,2,3,4,5,3,1,3,4,2,1,2,3,4,6,7,4,2,13]
+#Zakres <start; stop) 
+nowa_lista = liczby[2:6]
+
+nowa_lista1 = liczby[:5] #od początku listy do 5 indeksu
+nowa_lista2 = liczby[8:] #od 8 indeksu do końca listy
+print(nowa_lista2)
